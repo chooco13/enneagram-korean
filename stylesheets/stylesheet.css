@@ -35,6 +35,11 @@ header {
 	background : #009688;
 }
 
+#score_intro p{
+	margin-bottom:4px;
+	margin-top:4px;
+}
+
 /*setting*/
 
 #setting {
@@ -46,6 +51,15 @@ header {
 	margin : auto;
 }
 
+#question_area {
+	position : relative;
+	width : 100%;
+	padding-bottom : 32px;
+	text-align : left;
+	margin : auto;
+}
+
+
 #input_name{
 	width : 256px;
 	font-size : 16px;
@@ -54,6 +68,59 @@ header {
 
 #form {
 	padding-left : 24px;
+	padding-right : 24px;
+}
+
+#form p{
+	font-size : 12px;
+}
+
+table {
+    width:100%;
+	margin-top : 8px;
+	margin-bottom : 16px;
+	
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+	font-size : 12px;
+}
+
+.Question{
+	padding-left : 12px;
+	padding-right : 12px;
+}
+
+.radio {
+	width : 24px;
+	height : 24px;
+	text-align : center;
+	padding : 0px;
+}
+
+.radiobutton {
+	margin-left : 0px;
+	margin-right : 0px;
+}
+
+table tr:nth-child(even) {
+    background-color: #eee;
+}
+table tr:nth-child(odd) {
+   background-color:#fff;
+}
+
+table th {
+    background-color: #0990AD;
+    color: white;
+	text-align : center;
+}
+
+table td {
+	padding-top : 4px;
+	padding-bottom : 4px;
 }
 
 #next {
@@ -62,7 +129,6 @@ header {
 	padding : 16px;
 	font-size : 16px;
 	float:right;
-	margin-right:16px;
 	margin-bottom:16px;
 	border-color : #000000;
 	font-weight: bold;

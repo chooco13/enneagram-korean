@@ -1,3 +1,117 @@
 ﻿<!DOCTYPE html>
 <html lang="ko">
+	<head>
+		<title>enneagram-korean</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+		<script src="javascripts/functions.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css">
+	</head>
+	
+	<body>
+		<header>
+			<h1>에니어그램</h1>
+		</header>
+
+		<div id = "question_area">
+			<form id = "form" action="test.html">
+				<div id = "score_intro">
+					<p class="score_intro">1.전혀 그렇지 않다 2.대체로 그렇지 않다</p>
+					<p class="score_intro">3.보통이다. 4.대체로 그렇다 5.매우 그렇다</p>
+				</div>
+				<!-- 테이블 -->
+				<table>
+					<tr>
+						<th>문항</th>
+						<th class="radio">1</th>
+						<th class="radio">2</th>
+						<th class="radio">3</th>
+						<th class="radio">4</th>
+						<th class="radio">5</th>
+					</tr>
+					
+					<!-- 이 부분 js 이용하여 간략하게 작성하기 -->
+					<tr>
+						<td class="Question">나는 무엇인가에 대하여 집중하여 통찰한다.</td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q1" value=""></td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q1" value="2"></td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q1" value="3"></td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q1" value="4"></td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q1" value="5"></td>
+					</tr>
+					<tr>
+						<td class="Question">나는 무엇인가에 대하여 집중하여 통찰한다.</td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q2" value=""></td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q2" value="2"></td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q2" value="3"></td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q2" value="4"></td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q2" value="5"></td>
+					</tr>
+					<tr>
+						<td class="Question">나는 무엇인가에 대하여 집중하여 통찰한다.</td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q3" value=""></td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q3" value="2"></td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q3" value="3"></td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q3" value="4"></td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q3" value="5"></td>
+					</tr>
+					<tr>
+						<td class="Question">나는 무엇인가에 대하여 집중하여 통찰한다.</td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q4" value=""></td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q4" value="2"></td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q4" value="3"></td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q4" value="4"></td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q4" value="5"></td>
+					</tr>
+					<tr>
+						<td class="Question">나는 무엇인가에 대하여 집중하여 통찰한다.</td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q5" value=""></td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q5" value="2"></td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q5" value="3"></td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q5" value="4"></td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q5" value="5"></td>
+					</tr>
+					<tr>
+						<td class="Question">나는 무엇인가에 대하여 집중하여 통찰한다.</td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q6" value=""></td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q6" value="2"></td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q6" value="3"></td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q6" value="4"></td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q6" value="5"></td>
+					</tr>
+					<tr>
+						<td class="Question">나는 무엇인가에 대하여 집중하여 통찰한다.</td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q7" value=""></td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q7" value="2"></td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q7" value="3"></td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q7" value="4"></td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q7" value="5"></td>
+					</tr>
+					<tr>
+						<td class="Question">나는 무엇인가에 대하여 집중하여 통찰한다.</td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q8" value=""></td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q8" value="2"></td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q8" value="3"></td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q8" value="4"></td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q8" value="5"></td>
+					</tr>
+					<tr>
+						<td class="Question">나는 무엇인가에 대하여 집중하여 통찰한다.</td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q9" value=""></td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q9" value="2"></td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q9" value="3"></td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q9" value="4"></td>
+						<td class="radio"><input class = "radiobutton" type="radio" name="Q9" value="5"></td>
+					</tr>
+					
+				</table>
+				
+				<input type="submit" id="next"></input>
+			</form>
+		</div>
+		
+		<footer>
+			<p>Posted by : choo_co</p>
+		</footer>
+	</body>	
 </html>
