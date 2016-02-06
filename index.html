@@ -9,21 +9,33 @@
 	</head>
 	
 	<body>
-		<header>
-			<h1>에니어그램</h1>
-		</header>
+		<nav>
+		<!-- ... -->
+		</nav>
 
-		<div id = "intro">
-			
-		</div>
+		<div id="page">
+			<div  id = "label"></div>
+				
+			<header class = "large-font">
+				<h1 class = "light">에니어그램 테스트</h1>
+			</header>
 		
-		<div id = "setting">
-			<form id = "form" action="test.html" onsubmit="return setUser()">
-				이름을 입력해주세요
-				<p><input id="input_name" type="text" maxlength="5" placeholder="이름" name="name" required></p>
-				<!--필요시 필요 정보 입력 추가-->		
-				<input type="submit" id="next"></input>
-			</form>
+			<section>
+				<div id = "section-padding">
+					<div id = "intro">
+					<!-- ... -->
+					</div>
+					
+					<div id = "setting">
+						<form id = "form" action="test.html" onsubmit="return setUser()">
+							이름을 입력해주세요
+							<p><input id="input_name" class="large-font" type="text" maxlength="5" placeholder="이름" name="name" autocomplete="off" required></p>
+							<!--필요시 필요 정보 입력 추가-->		
+							<input type="submit" id="next" class="large-font" value="시작"></input>
+						</form>
+					</div>
+				</div>
+			</section>
 		</div>
 		
 		<footer>

@@ -5,42 +5,70 @@
 	font-family : Nanum Gothic;
 }
 
-html{
-	min-width:350px;
-	max-width: 600px;
-	margin:auto;
+/*html*/
+
+html {
+	position: relative;
+    min-height: 100%;
 }
 
-body {
-	border : 1px #009688 solid;
+/*body*/
+
+body{
+	background : #B2DFDB;
+	margin : 0px;
+	height : 100%;
+	padding : 0;
+	padding-bottom:120px;
+	min-height:100%;
 }
+
 /*header*/
 
-header {
+nav {
 	clear:both;
-	text-align: left; 
-	color:#009688;
-	padding-left:16px;
-	font-size:12px;
-	background:#FFFFFF;
+	color:#FFFFFF;
+	padding-left : 16px;
+	padding-top : 64px;
+	padding-bottom : 64px;
+	background : #009688;
 }
 
-/*intro*/
+/*section*/
+
+#page {
+	min-width:350px;
+	max-width: 768px;
+	margin:auto;
+	background : #FFFFFF;
+	box-shadow: 0px 1px 10px #888888;
+	padding-bottom : 64px;
+}
+
+#label {
+	margin-top : -48px;
+	background : #4DB6AC;
+	height : 8px;
+}
+
+header{
+	padding-top : 32px;
+	padding-left : 32px;
+}
+
+#section-padding{
+	padding : 32px;
+	padding-top : 16px;
+}
 
 #intro {
 	width: 100%;
 	text-align: center;
 	height : 200px;
 	line-height : 240px;
-	background : #009688;
+	background : #B2DFDB;
+	margin-bottom : 32px;
 }
-
-#score_intro p{
-	margin-bottom:4px;
-	margin-top:4px;
-}
-
-/*setting*/
 
 #setting {
 	position : relative;
@@ -51,100 +79,81 @@ header {
 	margin : auto;
 }
 
-#question_area {
-	position : relative;
-	width : 100%;
-	padding-bottom : 32px;
-	text-align : left;
-	margin : auto;
-}
-
-
 #input_name{
 	width : 256px;
-	font-size : 16px;
-	margin-left : 8px;
-}
-
-#form {
-	padding-left : 24px;
-	padding-right : 24px;
-}
-
-#form p{
-	font-size : 12px;
-}
-
-table {
-    width:100%;
-	margin-top : 8px;
-	margin-bottom : 16px;
-	
-}
-
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-	font-size : 12px;
-}
-
-.Question{
-	padding-left : 12px;
-	padding-right : 12px;
-}
-
-.radio {
-	width : 24px;
-	height : 24px;
-	text-align : center;
-	padding : 0px;
-}
-
-.radiobutton {
-	margin-left : 0px;
-	margin-right : 0px;
-}
-
-table tr:nth-child(even) {
-    background-color: #eee;
-}
-table tr:nth-child(odd) {
-   background-color:#fff;
-}
-
-table th {
-    background-color: #0990AD;
-    color: white;
-	text-align : center;
-}
-
-table td {
-	padding-top : 4px;
-	padding-bottom : 4px;
 }
 
 #next {
 	border-style: solid;
 	border-width : 1px 1px 1px 1px;
-	padding : 16px;
-	font-size : 16px;
-	float:right;
-	margin-bottom:16px;
-	border-color : #000000;
-	font-weight: bold;
+	border-radius : 4px;
+	border-color : #eeeeee;
+	padding : 8px;
+	padding-left : 32px;
+	padding-right : 32px;
+	margin-top : 32px;
+	float:left;
+	background : #1976D2;
+	color : #ffffff;
 }
+
+#score-intro{
+	padding-bottom : 32px;
+	margin-top : -48px;
+	color : #999999;
+}
+
+th, tr {
+	text-align : center;
+	height : 32px;
+	color : #999999;
+}
+
+#question{
+	margin-top : 32px;
+	margin-bottom : 32px;
+}
+
+.radio-gruop {
+	min-width : 300px;
+	margin : auto;
+	margin-bottom : 64px;
+}
+
+.question-text {
+	margin-bottom : 32px;
+}
+
 
 /*footer*/
 
 footer {
-	clear:both;	
-    color: #000000;
+	position: absolute;
+	bottom : 0;
+	width : 100%;
+	color: #ffffff;
 	text-align: center; 
     background-color: #009688;
     padding-top: 8px;
     padding-bottom: 8px;
 }
 
-footer a {
-    color: #fff;
+.small-font{
+	font-size : 12px;
+}
+
+.thick {
+	font-weight: bold;	
+}
+
+.light {
+	font-weight: lighter;
+}
+
+.large-font{
+	font-size : 16px;	
+}
+
+.gray {
+	color : #999999;
 }
