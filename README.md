@@ -24,7 +24,7 @@ html + javascript + css + xml(항목 및 결과) 로 제작하였습니다.
 http://isimri.com
 
 에니어그램 이미지 및 유형별 설명 출처  
-https://ko.wikipedia.org/wiki/%EC%97%90%EB%8B%88%EC%96%B4%EA%B7%B8%EB%9E%A8
+[https://ko.wikipedia.org/wiki/에니어그램](https://ko.wikipedia.org/wiki/%EC%97%90%EB%8B%88%EC%96%B4%EA%B7%B8%EB%9E%A8) 
 
 Chart.js (https://github.com/nnnick/Chart.js)  
 Copyright (c) 2013-2016 Nick Downie  
