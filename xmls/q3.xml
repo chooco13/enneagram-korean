@@ -1,15 +1,15 @@
 ﻿<list>
 	<question>
 		<index>1</index>
-		<text>나는 사람들에게 칭찬을 잘 한다.</text>
+		<text>나는 사람들을 지나치게 칭찬한다.</text>
 	</question>
 	<question>
 		<index>8</index>
-		<text>나는 친구들과 긴장을 품고 마음 편하게 지낸다.</text>
+		<text>나는 속상한 일들을 축소하려고 한다.</text>
 	</question>
 	<question>
 		<index>9</index>
-		<text>나는 다른 사람들보다 근면하며 책임감이 강하다.</text>
+		<text>나는 때때로 분노를 느낀다. </text>
 	</question>
 	<question>
 		<index>5</index>
@@ -25,7 +25,7 @@
 	</question>
 	<question>
 		<index>9</index>
-		<text>나는 정직하고 자제력이 있는 사람이다.</text>
+		<text>나는 도덕적으로 자제력이 있는 사람이다.</text>
 	</question>
 	<question>
 		<index>5</index>
@@ -33,6 +33,6 @@
 	</question>
 	<question>
 		<index>8</index>
-		<text>나는 사람들을 유쾌하고 편하게 대한다.</text>
+		<text>나는 사람들과 좋은 관계를 유지하려 한다.</text>
 	</question>
 </list>

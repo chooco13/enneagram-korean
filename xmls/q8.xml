@@ -1,15 +1,15 @@
 ﻿<list>
 	<question>
 		<index>3</index>
-		<text>나는 내 행동의 동기와 감정에 대해 회의스런 생각이 들 때가 있다.</text>
+		<text>나는 마음이 따뜻하지만 때로 질투심이 난다.</text>
 	</question>
 	<question>
 		<index>9</index>
-		<text>나는 정의감이 강하고 근면하다.</text>
+		<text>나는 옳고 그름이 분명하여 때로 비판적이다.</text>
 	</question>
 	<question>
 		<index>2</index>
-		<text>나는 성공만이 애정을 획득할 수 있다고 믿는다.</text>
+		<text>나는 성공이 애정을 획득할 수 있다고 믿는다.</text>
 	</question>
 	<question>
 		<index>6</index>
@@ -29,10 +29,10 @@
 	</question>
 	<question>
 		<index>2</index>
-		<text>나는 실패를 두려워하여 과장하는 경향이 있다.</text>
+		<text>나는 맡은 일을 효율적으로 한다.</text>
 	</question>
 	<question>
 		<index>1</index>
-		<text>나는 타인의 만족을 위해 노력한다.</text>
+		<text>나는 타인의 감정을 위해 자신을 희생하기도 한다.</text>
 	</question>
 </list>

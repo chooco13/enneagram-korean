@@ -8,7 +8,7 @@
 		<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css">
 	</head>
 	
-	<body>
+	<body onload="reset()">
 		<nav>
 		<!-- ... -->
 		</nav>
@@ -23,14 +23,18 @@
 			<section>
 				<div id = "section-padding">
 					<div id = "intro">
+						<img src="images/Ennea_org.png"> </img>
 					<!-- ... -->
 					</div>
 					
 					<div id = "setting">
-						<form id = "form" action="test.html" onsubmit="return setUser()">
+						<p>에니어그램(Enneagram)은 사람을 9가지 성격으로 분류하는 성격 유형 지표입니다.</p>
+						<p>당신은 애니어그램에서 어떤 유형의 성격을 가진 사람일까요?</p>
+						<form id = "form" action="test.html" onsubmit="return start()">
+							<!-- 필요시 필요 정보 입력 추가	
 							이름을 입력해주세요
 							<p><input id="input_name" class="large-font" type="text" maxlength="5" placeholder="이름" name="name" autocomplete="off" required></p>
-							<!--필요시 필요 정보 입력 추가-->		
+							-->		
 							<input type="submit" id="next" class="large-font" value="시작"></input>
 						</form>
 					</div>
