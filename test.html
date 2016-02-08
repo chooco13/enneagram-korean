@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<title>enneagram-korean</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+		<script src="javascripts/functions.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css">
+	</head>
+	
+	<body onload="createQuestion()">
+		<nav>
+		<!-- ... -->
+		</nav>
+
+		<div id="page">
+			<div  id = "label"></div>
+
+			<header>
+				<h1 class="light">에니어그램 테스트</h1>
+			</header>
+
+			<section>
+				<div id = "section-padding">
+				<div id = "setting">
+					<form id = "form" action="test.html" onsubmit="pageUp()">
+						<p class="small-font"></p>
+						<p id = "score-intro" class="small-font">1.전혀 그렇지 않다 2.대체로 그렇지 않다 3.보통이다. 4.대체로 그렇다 5.매우 그렇다</p>
+						
+						<div id = "question">
+							<!-- 문항들 동적 생성 영역 -->
+						</div>
+						
+						<input type="submit" id="next" class="large-font" value="다음"></input>
+					</form>
+				<div>
+			</section>
+		</div>
+		
+		<footer>
+			<p>Posted by : choo_co</p>
+		</footer>
+	</body>	
+</html>
