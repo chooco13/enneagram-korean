@@ -2,6 +2,8 @@
 ![enneagram](http://i.imgur.com/TIvRHga.png)  
 [출처] https://commons.wikimedia.org/wiki/File:Ennea_org.png
 
+[DEMO](http://chooco13.github.io/enneagram-korean/)
+
 ## 이게 뭐죠?
 
 `에니어그램(Enneagram)` 은 사람을 9가지 성격으로 분류하는 성격 유형 지표입니다.   
