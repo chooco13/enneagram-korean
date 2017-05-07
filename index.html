@@ -1,49 +1,49 @@
 ﻿<!DOCTYPE html>
 <html lang="ko">
-	<head>
-		<title>enneagram-korean</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, user-scalable=no">
-		<script src="javascripts/functions.js" type="text/javascript" charset="utf-8"></script>
-		<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css">
-	</head>
-	
-	<body onload="reset()">
-		<nav>
-		<!-- ... -->
-		</nav>
+<head>
+    <title>enneagram-korean</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+    <script src="javascripts/functions.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css">
 
-		<div id="page">
-			<div  id = "label"></div>
-				
-			<header class = "large-font">
-				<h1 class = "light">에니어그램 테스트</h1>
-			</header>
-		
-			<section>
-				<div id = "section-padding">
-					<div id = "intro">
-						<img src="images/Ennea_org.png"> </img>
-					<!-- ... -->
-					</div>
-					
-					<div id = "setting">
-						<p>에니어그램(Enneagram)은 사람을 9가지 성격으로 분류하는 성격 유형 지표입니다.</p>
-						<p>당신은 애니어그램에서 어떤 유형의 성격을 가진 사람일까요?</p>
-						<form id = "form" action="test.html" onsubmit="return start()">
-							<!-- 필요시 필요 정보 입력 추가	
-							이름을 입력해주세요
-							<p><input id="input_name" class="large-font" type="text" maxlength="5" placeholder="이름" name="name" autocomplete="off" required></p>
-							-->		
-							<input type="submit" id="next" class="large-font" value="시작"></input>
-						</form>
-					</div>
-				</div>
-			</section>
-		</div>
-		
-		<footer>
-			<p>Posted by : choo_co</p>
-		</footer>
-	</body>	
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css"/>
+</head>
+
+<body onload="reset()">
+<nav>
+    <!-- ... -->
+</nav>
+
+<div id="page">
+    <div id="label"></div>
+
+    <header class="large-font">
+        <h1 class="light">에니어그램 테스트</h1>
+    </header>
+
+    <section>
+        <div id="section-padding">
+            <div id="intro">
+                <img src="images/Ennea_org.png"/>
+            </div>
+
+            <div id="setting">
+                <p>에니어그램(Enneagram)은 사람을 9가지 성격으로 분류하는 성격 유형 지표입니다.</p>
+                <p>당신은 애니어그램에서 어떤 유형의 성격을 가진 사람일까요?</p>
+                <form id="form" action="test.html" onsubmit="return start()">
+                    <div class="text-right">
+                        <input id="next" class="btn btn-primary" type="submit" value="시작">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <!-- ... -->
+</footer>
+</body>
 </html>

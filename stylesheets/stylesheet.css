@@ -15,6 +15,7 @@ html {
 /*body*/
 
 body{
+	background-color : #B2DFDB !important;
 	background : #B2DFDB;
 	margin : 0px;
 	height : 100%;
@@ -37,7 +38,6 @@ nav {
 /*section*/
 
 #page {
-	min-width:350px;
 	max-width: 768px;
 	margin:auto;
 	background : #FFFFFF;
@@ -86,20 +86,6 @@ header{
 	width : 256px;
 }
 
-#next {
-	border-style: solid;
-	border-width : 1px 1px 1px 1px;
-	border-radius : 4px;
-	border-color : #eeeeee;
-	padding : 8px;
-	padding-left : 32px;
-	padding-right : 32px;
-	margin-top : 32px;
-	float:left;
-	background : #1976D2;
-	color : #ffffff;
-}
-
 #score-intro{
 	padding-bottom : 32px;
 	margin-top : -48px;
@@ -123,7 +109,7 @@ th, tr {
 }
 
 .radio-gruop {
-	min-width : 300px;
+	width: 100%;
 	margin : auto;
 	margin-bottom : 64px;
 }
@@ -202,4 +188,15 @@ footer {
 
 li{
 	margin : 4px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+	body{
+		padding-bottom: 0;
+	}
+
+	#page{
+		padding-bottom: 0;
+	}
 }
